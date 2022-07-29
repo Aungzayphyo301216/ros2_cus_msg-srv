@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/lib/sub_sub/listener
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/package_run_dependencies/sub_sub
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/parent_prefix_path/sub_sub
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.sh
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.dsv
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.bash
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.sh
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.zsh
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.dsv
+-- Installing: /home/azp/new_ws/install/sub_sub/share/sub_sub/package.dsv
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/packages/sub_sub
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig.cmake
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig-version.cmake
+-- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/package.xml

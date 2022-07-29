@@ -1,0 +1,64 @@
+[0.245s] Invoking command in '/home/azp/new_ws/build/motor_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg
+[6.183s] -- The C compiler identification is GNU 11.2.0
+[9.369s] -- The CXX compiler identification is GNU 11.2.0
+[9.445s] -- Detecting C compiler ABI info
+[9.696s] -- Detecting C compiler ABI info - done
+[9.705s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.706s] -- Detecting C compile features
+[9.751s] -- Detecting C compile features - done
+[9.785s] -- Detecting CXX compiler ABI info
+[10.023s] -- Detecting CXX compiler ABI info - done
+[10.033s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[10.033s] -- Detecting CXX compile features
+[10.034s] -- Detecting CXX compile features - done
+[10.073s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[10.466s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter 
+[10.809s] -- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)
+[11.066s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.107s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.159s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.545s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.569s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.015s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[12.015s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[12.015s]   motor_msg --arguments-file
+[12.015s]   /home/azp/new_ws/build/motor_msg/rosidl_adapter__arguments__motor_msg.json
+[12.015s]   --output-dir /home/azp/new_ws/build/motor_msg/rosidl_adapter/motor_msg
+[12.015s]   --output-file
+[12.015s]   /home/azp/new_ws/build/motor_msg/rosidl_adapter/motor_msg.idls) returned
+[12.015s]   error code 1:
+[12.015s] 
+[12.015s]   Traceback (most recent call last):
+[12.016s] 
+[12.016s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[12.016s]       return _run_code(code, main_globals, None,
+[12.016s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[12.016s]       exec(code, run_globals)
+[12.016s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[12.016s]       sys.exit(main())
+[12.016s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[12.016s]       abs_idl_file = convert_to_idl(
+[12.016s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[12.016s]       return convert_msg_to_idl(
+[12.016s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[12.016s]       msg = parse_message_string(package_name, input_file.stem, content)
+[12.017s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[12.017s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[12.017s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[12.017s]       self.base_type = BaseType(
+[12.017s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[12.017s]       raise InvalidResourceName(
+[12.017s] 
+[12.017s]   rosidl_adapter.parser.InvalidResourceName: 'rpm' is an invalid message
+[12.017s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[12.017s] 
+[12.017s] Call Stack (most recent call first):
+[12.017s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[12.017s]   CMakeLists.txt:23 (rosidl_generate_interfaces)
+[12.017s] 
+[12.017s] [0m
+[12.018s] -- Configuring incomplete, errors occurred!
+[12.018s] See also "/home/azp/new_ws/build/motor_msg/CMakeFiles/CMakeOutput.log".
+[12.022s] Invoked command in '/home/azp/new_ws/build/motor_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg

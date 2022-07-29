@@ -1,0 +1,6 @@
+Invoking command in '/home/azp/new_ws/build/motor_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg
+Invoked command in '/home/azp/new_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg
+Invoking command in '/home/azp/new_ws/build/motor_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/motor_msg -- -j4 -l4
+Invoked command in '/home/azp/new_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/motor_msg -- -j4 -l4
+Invoking command in '/home/azp/new_ws/build/motor_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/motor_msg
+Invoked command in '/home/azp/new_ws/build/motor_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/motor_msg

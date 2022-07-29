@@ -1,0 +1,259 @@
+[0.019s] Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs
+[0.031s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.217s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.726s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.398s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.4", minimum required is "3.6") 
+[1.418s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.552s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.4", minimum required is "3.5") 
+[1.552s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.553s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.553s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.602s] -- Found PythonExtra: .so  
+[1.699s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.788s] -- Added test 'lint_cmake' to check CMake code style
+[1.793s] -- Added test 'xmllint' to check XML markup files
+[1.803s] -- Configuring done
+[1.879s] -- Generating done
+[1.882s] -- Build files have been written to: /home/azp/new_ws/build/rom_msgs
+[1.887s] Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs
+[1.889s] Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/rom_msgs -- -j4 -l4
+[1.930s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.940s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.951s] [  5%] Built target ament_cmake_python_copy_rom_msgs
+[2.455s] [ 10%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_generator_c.dir/rosidl_generator_c/rom_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[2.455s] [ 10%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_generator_c.dir/rosidl_generator_c/rom_msgs/msg/detail/rpm__functions.c.o[0m
+[2.570s] running egg_info
+[2.571s] creating rom_msgs.egg-info
+[2.571s] writing rom_msgs.egg-info/PKG-INFO
+[2.571s] writing dependency_links to rom_msgs.egg-info/dependency_links.txt
+[2.571s] writing top-level names to rom_msgs.egg-info/top_level.txt
+[2.572s] writing manifest file 'rom_msgs.egg-info/SOURCES.txt'
+[2.574s] [ 10%] Built target rom_msgs__cpp
+[2.584s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.652s] reading manifest file 'rom_msgs.egg-info/SOURCES.txt'
+[2.656s] writing manifest file 'rom_msgs.egg-info/SOURCES.txt'
+[2.708s] [ 12%] Built target ament_cmake_python_build_rom_msgs_egg
+[2.717s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.993s] [ 17%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rom_msgs/msg/rpm__type_support.cpp.o[0m
+[3.129s] [ 20%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rom_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[3.145s] [ 23%] [32m[1mLinking C shared library librom_msgs__rosidl_generator_c.so[0m
+[3.264s] [ 23%] Built target rom_msgs__rosidl_generator_c
+[3.275s] [ 25%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.346s] [ 28%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rom_msgs/msg/detail/dds_fastrtps/rpm__type_support.cpp.o[0m
+[3.707s] [ 30%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rom_msgs/msg/detail/rpm__type_support.cpp.o[0m
+[5.109s] [ 33%] [32m[1mLinking CXX shared library librom_msgs__rosidl_typesupport_cpp.so[0m
+[5.109s] [ 35%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rom_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[5.128s] [ 38%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rom_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[5.186s] [ 38%] Built target rom_msgs__rosidl_typesupport_cpp
+[5.200s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.532s] [ 43%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.854s] [ 46%] [32m[1mLinking CXX shared library librom_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.889s] [ 48%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rom_msgs/msg/detail/rpm__type_support_c.cpp.o[0m
+[5.975s] [ 51%] [32m[1mLinking CXX shared library librom_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.258s] [ 51%] Built target rom_msgs__rosidl_typesupport_introspection_cpp
+[6.274s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.323s] [ 53%] Built target rom_msgs__rosidl_typesupport_fastrtps_cpp
+[6.332s] [ 56%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rom_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[6.519s] [ 58%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rom_msgs/msg/detail/rpm__type_support.c.o[0m
+[6.599s] [ 61%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rom_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[6.659s] [ 64%] [32m[1mLinking C shared library librom_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.706s] [ 64%] Built target rom_msgs__rosidl_typesupport_introspection_c
+[6.829s] [ 69%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rom_msgs/msg/rpm__type_support.cpp.o[0m
+[6.829s] [ 69%] [32mBuilding CXX object CMakeFiles/rom_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/rom_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[6.869s] [ 71%] [32m[1mLinking CXX shared library librom_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.916s] [ 74%] [32m[1mLinking CXX shared library librom_msgs__rosidl_typesupport_c.so[0m
+[6.964s] [ 74%] Built target rom_msgs__rosidl_typesupport_c
+[6.968s] [ 74%] Built target rom_msgs__rosidl_typesupport_fastrtps_c
+[6.988s] [ 74%] Built target rom_msgs
+[7.008s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.622s] [ 76%] Built target rom_msgs__py
+[7.642s] [ 82%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_generator_py.dir/rosidl_generator_py/rom_msgs/srv/_add_two_ints_s.c.o[0m
+[7.642s] [ 82%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_generator_py.dir/rosidl_generator_py/rom_msgs/msg/_rpm_s.c.o[0m
+[8.333s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/rom_msgs/librom_msgs__rosidl_generator_py.so[0m
+[8.374s] [ 84%] Built target rom_msgs__rosidl_generator_py
+[8.396s] [ 87%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.398s] [ 89%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.400s] [ 92%] [32mBuilding C object CMakeFiles/rom_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.524s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.560s] [ 94%] Built target rom_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.577s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.578s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.611s] [100%] Built target rom_msgs__rosidl_typesupport_introspection_c__pyext
+[8.612s] [100%] Built target rom_msgs__rosidl_typesupport_c__pyext
+[8.623s] Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/rom_msgs -- -j4 -l4
+[8.692s] Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/rom_msgs
+[8.700s] -- Install configuration: ""
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/rosidl_interfaces/rom_msgs
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rpm.h
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.701s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__functions.c
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__functions.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__struct.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/add_two_ints.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__struct.h
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__functions.c
+[8.702s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.h
+[8.703s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__functions.h
+[8.703s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/library_path.sh
+[8.703s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/library_path.dsv
+[8.703s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_c.so
+[8.703s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_c.so" to ""
+[8.703s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.703s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.703s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.704s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_fastrtps_c.h
+[8.704s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.704s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.704s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.704s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[8.704s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_c.so
+[8.704s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.704s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.704s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.704s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.705s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_introspection_c.h
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.c
+[8.705s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.705s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.c
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_c.so
+[8.705s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.705s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_c.so
+[8.706s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_c.so" to ""
+[8.706s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.706s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.706s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rpm.hpp
+[8.706s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.706s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__builder.hpp
+[8.706s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__struct.hpp
+[8.707s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__traits.hpp
+[8.707s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.707s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/add_two_ints.hpp
+[8.707s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.707s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__struct.hpp
+[8.707s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__builder.hpp
+[8.707s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__traits.hpp
+[8.707s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.708s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.708s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/dds_fastrtps
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_fastrtps_cpp.hpp
+[8.708s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.708s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/dds_fastrtps
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[8.708s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.709s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.709s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs
+[8.709s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg
+[8.709s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail
+[8.709s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_introspection_cpp.hpp
+[8.709s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.cpp
+[8.709s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv
+[8.709s] -- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail
+[8.709s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.cpp
+[8.709s] -- Installing: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[8.709s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_cpp.so
+[8.709s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_cpp.so
+[8.710s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_cpp.so" to ""
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/pythonpath.sh
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/pythonpath.dsv
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[8.710s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/_rpm.py
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/__init__.py
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/_rpm_s.c
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.711s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/librom_msgs__rosidl_generator_py.so
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_c.c
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/__init__.py
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/__init__.py
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/_add_two_ints.py
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/_add_two_ints_s.c
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.712s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.770s] Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs'...
+[8.770s] Compiling '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/__init__.py'...
+[8.770s] Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg'...
+[8.770s] Compiling '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/__init__.py'...
+[8.770s] Compiling '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/_rpm.py'...
+[8.770s] Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv'...
+[8.771s] Compiling '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/__init__.py'...
+[8.771s] Compiling '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/_add_two_ints.py'...
+[8.776s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.776s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.777s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.777s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.777s] -- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.778s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.778s] -- Installing: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_py.so
+[8.778s] -- Set runtime path of "/home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_py.so" to ""
+[8.778s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/msg/Rpm.idl
+[8.778s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts.idl
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/msg/Rpm.msg
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts.srv
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts_Request.msg
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts_Response.msg
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/package_run_dependencies/rom_msgs
+[8.779s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/parent_prefix_path/rom_msgs
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/ament_prefix_path.sh
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/ament_prefix_path.dsv
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/path.sh
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/path.dsv
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.bash
+[8.780s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.sh
+[8.781s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.zsh
+[8.805s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.dsv
+[8.805s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/package.dsv
+[8.806s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/packages/rom_msgs
+[8.806s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cExport.cmake
+[8.807s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.808s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.809s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.809s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.810s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.810s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cExport.cmake
+[8.811s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.811s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cppExport.cmake
+[8.812s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.812s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.813s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.814s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.814s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cppExport.cmake
+[8.815s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.815s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_pyExport.cmake
+[8.816s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.817s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake-extras.cmake
+[8.817s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.818s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.818s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.818s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.819s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.819s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.820s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgsConfig.cmake
+[8.820s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgsConfig-version.cmake
+[8.821s] -- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/package.xml
+[8.828s] Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/rom_msgs

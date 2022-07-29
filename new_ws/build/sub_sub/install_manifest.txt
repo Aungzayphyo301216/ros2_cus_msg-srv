@@ -1,0 +1,16 @@
+/home/azp/new_ws/install/sub_sub/lib/sub_sub/listener
+/home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/package_run_dependencies/sub_sub
+/home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/parent_prefix_path/sub_sub
+/home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.sh
+/home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.dsv
+/home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.sh
+/home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.dsv
+/home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.bash
+/home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.sh
+/home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.zsh
+/home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.dsv
+/home/azp/new_ws/install/sub_sub/share/sub_sub/package.dsv
+/home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/packages/sub_sub
+/home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig.cmake
+/home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig-version.cmake
+/home/azp/new_ws/install/sub_sub/share/sub_sub/package.xml

@@ -1,0 +1,1 @@
+/home/azp/new_ws/build/pub_sub/ament_cmake_core/pub_subConfig-version.cmake

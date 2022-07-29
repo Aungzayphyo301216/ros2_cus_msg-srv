@@ -1,0 +1,1 @@
+/home/azp/new_ws/build/pub_sub/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,6 @@
+Invoking command in '/home/azp/new_ws/build/sub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/sub_sub -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/sub_sub
+Invoked command in '/home/azp/new_ws/build/sub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/sub_sub -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/sub_sub
+Invoking command in '/home/azp/new_ws/build/sub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/sub_sub -- -j4 -l4
+Invoked command in '/home/azp/new_ws/build/sub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/sub_sub -- -j4 -l4
+Invoking command in '/home/azp/new_ws/build/sub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/sub_sub
+Invoked command in '/home/azp/new_ws/build/sub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/sub_sub

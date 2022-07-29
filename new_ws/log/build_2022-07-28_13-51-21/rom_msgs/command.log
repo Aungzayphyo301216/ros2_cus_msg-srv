@@ -1,0 +1,2 @@
+Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs
+Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs

@@ -1,0 +1,7 @@
+{
+  "package_name": "motor_msg",
+  "non_idl_tuples": [
+    "/home/azp/new_ws/src/motor_msg:msg/Rpm.msg",
+    "/home/azp/new_ws/src/motor_msg:srv/AddTwoInt.srv"
+  ]
+}

@@ -1,0 +1,2 @@
+Invoking command in '/home/azp/new_ws/build/pub_sub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/pub_sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/pub_sub
+Invoked command in '/home/azp/new_ws/build/pub_sub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/pub_sub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/pub_sub

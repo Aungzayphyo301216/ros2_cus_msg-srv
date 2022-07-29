@@ -1,0 +1,23 @@
+[0.224s] Invoking command in '/home/azp/new_ws/build/sub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/sub_sub -- -j4 -l4
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.284s] [100%] Built target listener
+[0.295s] Invoked command in '/home/azp/new_ws/build/sub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/sub_sub -- -j4 -l4
+[0.332s] Invoking command in '/home/azp/new_ws/build/sub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/sub_sub
+[0.339s] -- Install configuration: ""
+[0.339s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/lib/sub_sub/listener
+[0.339s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/package_run_dependencies/sub_sub
+[0.339s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/parent_prefix_path/sub_sub
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.sh
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/ament_prefix_path.dsv
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.sh
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/environment/path.dsv
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.bash
+[0.340s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.sh
+[0.341s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.zsh
+[0.341s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/local_setup.dsv
+[0.341s] -- Installing: /home/azp/new_ws/install/sub_sub/share/sub_sub/package.dsv
+[0.341s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/ament_index/resource_index/packages/sub_sub
+[0.341s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig.cmake
+[0.341s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/cmake/sub_subConfig-version.cmake
+[0.342s] -- Up-to-date: /home/azp/new_ws/install/sub_sub/share/sub_sub/package.xml
+[0.343s] Invoked command in '/home/azp/new_ws/build/sub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/sub_sub

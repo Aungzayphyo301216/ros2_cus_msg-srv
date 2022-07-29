@@ -1,0 +1,10 @@
+/home/azp/new_ws/build/sub_sub/CMakeFiles/uninstall.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/sub_sub_uninstall.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/listener.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/test.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/edit_cache.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/rebuild_cache.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/list_install_components.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/install.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/install/local.dir
+/home/azp/new_ws/build/sub_sub/CMakeFiles/install/strip.dir

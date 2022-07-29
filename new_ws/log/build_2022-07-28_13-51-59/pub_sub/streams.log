@@ -1,0 +1,23 @@
+[0.023s] Invoking command in '/home/azp/new_ws/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/pub_sub -- -j4 -l4
+[0.077s] [100%] Built target talker
+[0.089s] Invoked command in '/home/azp/new_ws/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/pub_sub -- -j4 -l4
+[0.123s] Invoking command in '/home/azp/new_ws/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/pub_sub
+[0.130s] -- Install configuration: ""
+[0.131s] -- Execute custom install script
+[0.131s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/lib/pub_sub/talker
+[0.131s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub
+[0.132s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub
+[0.132s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv
+[0.133s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/path.sh
+[0.133s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/path.dsv
+[0.133s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.bash
+[0.133s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.sh
+[0.134s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.zsh
+[0.134s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.dsv
+[0.134s] -- Symlinking: /home/azp/new_ws/install/pub_sub/share/pub_sub/package.dsv
+[0.143s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/packages/pub_sub
+[0.143s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake
+[0.144s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake
+[0.144s] -- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/package.xml
+[0.147s] Invoked command in '/home/azp/new_ws/build/pub_sub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/pub_sub

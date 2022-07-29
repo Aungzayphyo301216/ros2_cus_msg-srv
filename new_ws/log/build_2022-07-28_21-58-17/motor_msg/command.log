@@ -1,0 +1,2 @@
+Invoking command in '/home/azp/new_ws/build/motor_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg
+Invoked command in '/home/azp/new_ws/build/motor_msg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/motor_msg -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg

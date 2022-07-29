@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (motor_msg) JobQueued: {'identifier': 'motor_msg', 'dependencies': OrderedDict()}
+[0.000318] (pub_sub) JobQueued: {'identifier': 'pub_sub', 'dependencies': OrderedDict()}
+[0.000988] (rom_msgs) JobQueued: {'identifier': 'rom_msgs', 'dependencies': OrderedDict()}
+[0.001048] (motor_msg) JobStarted: {'identifier': 'motor_msg'}
+[0.099138] (-) TimerEvent: {}
+[0.163938] (pub_sub) JobStarted: {'identifier': 'pub_sub'}
+[0.176097] (rom_msgs) JobStarted: {'identifier': 'rom_msgs'}
+[0.199287] (-) TimerEvent: {}
+[0.244476] (motor_msg) JobProgress: {'identifier': 'motor_msg', 'progress': 'cmake'}
+[0.244948] (motor_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/azp/new_ws/src/motor_msg', '-DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/motor_msg'], 'cwd': '/home/azp/new_ws/build/motor_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/new_ws/install/rom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp/new_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '958'), ('SYSTEMD_EXEC_PID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2719'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/new_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('JOURNAL_STREAM', '8:28546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-Dell:@/tmp/.ICE-unix/1168,unix/azp-Dell:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '2bf4f3b4909048a8b6279e9139e35909'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YB07P1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50709162-aadf-4597-b80c-091f6af7cfb4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/new_ws/build/motor_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble')]), 'shell': False}
+[0.271500] (pub_sub) JobProgress: {'identifier': 'pub_sub', 'progress': 'cmake'}
+[0.299546] (-) TimerEvent: {}
+[0.338825] (pub_sub) JobProgress: {'identifier': 'pub_sub', 'progress': 'build'}
+[0.343048] (pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azp/new_ws/build/pub_sub', '--', '-j4', '-l4'], 'cwd': '/home/azp/new_ws/build/pub_sub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/new_ws/install/rom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp/new_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '958'), ('SYSTEMD_EXEC_PID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2719'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/new_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('JOURNAL_STREAM', '8:28546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-Dell:@/tmp/.ICE-unix/1168,unix/azp-Dell:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '2bf4f3b4909048a8b6279e9139e35909'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YB07P1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50709162-aadf-4597-b80c-091f6af7cfb4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/new_ws/build/pub_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble')]), 'shell': False}
+[0.364367] (rom_msgs) JobProgress: {'identifier': 'rom_msgs', 'progress': 'cmake'}
+[0.399634] (rom_msgs) JobProgress: {'identifier': 'rom_msgs', 'progress': 'build'}
+[0.399905] (-) TimerEvent: {}
+[0.404536] (rom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azp/new_ws/build/rom_msgs', '--', '-j4', '-l4'], 'cwd': '/home/azp/new_ws/build/rom_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/new_ws/install/rom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp/new_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '958'), ('SYSTEMD_EXEC_PID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2719'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/new_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('JOURNAL_STREAM', '8:28546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-Dell:@/tmp/.ICE-unix/1168,unix/azp-Dell:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '2bf4f3b4909048a8b6279e9139e35909'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YB07P1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50709162-aadf-4597-b80c-091f6af7cfb4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/new_ws/build/rom_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble')]), 'shell': False}
+[0.500154] (-) TimerEvent: {}
+[0.600804] (-) TimerEvent: {}
+[0.701877] (-) TimerEvent: {}
+[0.802907] (-) TimerEvent: {}
+[0.903937] (-) TimerEvent: {}
+[1.004472] (-) TimerEvent: {}
+[1.105534] (-) TimerEvent: {}
+[1.206570] (-) TimerEvent: {}
+[1.307712] (-) TimerEvent: {}
+[1.408794] (-) TimerEvent: {}
+[1.509858] (-) TimerEvent: {}
+[1.610893] (-) TimerEvent: {}
+[1.711976] (-) TimerEvent: {}
+[1.813086] (-) TimerEvent: {}
+[1.913995] (-) TimerEvent: {}
+[2.014908] (-) TimerEvent: {}
+[2.115876] (-) TimerEvent: {}
+[2.216917] (-) TimerEvent: {}
+[2.317807] (-) TimerEvent: {}
+[2.418450] (-) TimerEvent: {}
+[2.519373] (-) TimerEvent: {}
+[2.619973] (-) TimerEvent: {}
+[2.721125] (-) TimerEvent: {}
+[2.765131] (rom_msgs) StdoutLine: {'line': b'[  2%] Built target rom_msgs__cpp\n'}
+[2.821375] (-) TimerEvent: {}
+[2.922363] (-) TimerEvent: {}
+[3.023314] (-) TimerEvent: {}
+[3.086223] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_generator_c\x1b[0m\n'}
+[3.123508] (-) TimerEvent: {}
+[3.224520] (-) TimerEvent: {}
+[3.325654] (-) TimerEvent: {}
+[3.375603] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.384395] (rom_msgs) StdoutLine: {'line': b'[ 12%] Built target rom_msgs__rosidl_generator_c\n'}
+[3.425810] (-) TimerEvent: {}
+[3.526511] (-) TimerEvent: {}
+[3.627348] (-) TimerEvent: {}
+[3.632271] (rom_msgs) StdoutLine: {'line': b'[ 23%] Built target rom_msgs__rosidl_typesupport_cpp\n'}
+[3.727650] (-) TimerEvent: {}
+[3.818790] (rom_msgs) StdoutLine: {'line': b'[ 23%] Built target ament_cmake_python_copy_rom_msgs\n'}
+[3.827824] (-) TimerEvent: {}
+[3.928460] (-) TimerEvent: {}
+[3.934268] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.966093] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.028710] (-) TimerEvent: {}
+[4.037828] (rom_msgs) StdoutLine: {'line': b'[ 33%] Built target rom_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.049966] (rom_msgs) StdoutLine: {'line': b'[ 43%] Built target rom_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.129053] (-) TimerEvent: {}
+[4.229931] (-) TimerEvent: {}
+[4.330612] (-) TimerEvent: {}
+[4.415919] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.430862] (-) TimerEvent: {}
+[4.491407] (rom_msgs) StdoutLine: {'line': b'[ 53%] Built target rom_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.531210] (-) TimerEvent: {}
+[4.532524] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.573663] (rom_msgs) StdoutLine: {'line': b'[ 64%] Built target rom_msgs__rosidl_typesupport_introspection_c\n'}
+[4.596672] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.608047] (rom_msgs) StdoutLine: {'line': b'[ 74%] Built target rom_msgs__rosidl_typesupport_c\n'}
+[4.631255] (-) TimerEvent: {}
+[4.731761] (-) TimerEvent: {}
+[4.832572] (-) TimerEvent: {}
+[4.888595] (rom_msgs) StdoutLine: {'line': b'[ 74%] Built target rom_msgs\n'}
+[4.932725] (-) TimerEvent: {}
+[5.033193] (-) TimerEvent: {}
+[5.086036] (pub_sub) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[5.101453] (pub_sub) CommandEnded: {'returncode': 0}
+[5.125791] (pub_sub) JobProgress: {'identifier': 'pub_sub', 'progress': 'install'}
+[5.133255] (-) TimerEvent: {}
+[5.134631] (pub_sub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azp/new_ws/build/pub_sub'], 'cwd': '/home/azp/new_ws/build/pub_sub', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/new_ws/install/rom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp/new_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '958'), ('SYSTEMD_EXEC_PID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2719'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/new_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('JOURNAL_STREAM', '8:28546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-Dell:@/tmp/.ICE-unix/1168,unix/azp-Dell:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '2bf4f3b4909048a8b6279e9139e35909'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YB07P1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50709162-aadf-4597-b80c-091f6af7cfb4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/new_ws/build/pub_sub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble')]), 'shell': False}
+[5.217250] (pub_sub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.233584] (-) TimerEvent: {}
+[5.297322] (rom_msgs) StdoutLine: {'line': b'[ 76%] Built target rom_msgs__py\n'}
+[5.300476] (pub_sub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.333848] (-) TimerEvent: {}
+[5.380284] (rom_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.386011] (rom_msgs) StdoutLine: {'line': b'writing rom_msgs.egg-info/PKG-INFO\n'}
+[5.387189] (rom_msgs) StdoutLine: {'line': b'writing dependency_links to rom_msgs.egg-info/dependency_links.txt\n'}
+[5.388212] (rom_msgs) StdoutLine: {'line': b'writing top-level names to rom_msgs.egg-info/top_level.txt\n'}
+[5.434073] (-) TimerEvent: {}
+[5.517470] (rom_msgs) StdoutLine: {'line': b"reading manifest file 'rom_msgs.egg-info/SOURCES.txt'\n"}
+[5.534314] (-) TimerEvent: {}
+[5.540936] (rom_msgs) StdoutLine: {'line': b"writing manifest file 'rom_msgs.egg-info/SOURCES.txt'\n"}
+[5.601141] (rom_msgs) StdoutLine: {'line': b'[ 76%] Built target ament_cmake_python_build_rom_msgs_egg\n'}
+[5.634468] (-) TimerEvent: {}
+[5.663381] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/lib/pub_sub/talker\n'}
+[5.664522] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/package_run_dependencies/pub_sub\n'}
+[5.667064] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/parent_prefix_path/pub_sub\n'}
+[5.668954] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/ament_prefix_path.sh\n'}
+[5.670674] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/ament_prefix_path.dsv\n'}
+[5.672394] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/path.sh\n'}
+[5.673916] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/environment/path.dsv\n'}
+[5.723580] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.bash\n'}
+[5.734824] (-) TimerEvent: {}
+[5.755096] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_generator_py\x1b[0m\n'}
+[5.768287] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.sh\n'}
+[5.801735] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.zsh\n'}
+[5.803200] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/local_setup.dsv\n'}
+[5.804454] (pub_sub) StdoutLine: {'line': b'-- Symlinking: /home/azp/new_ws/install/pub_sub/share/pub_sub/package.dsv\n'}
+[5.834976] (-) TimerEvent: {}
+[5.836100] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/ament_index/resource_index/packages/pub_sub\n'}
+[5.935281] (-) TimerEvent: {}
+[5.948034] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/cmake/pub_subConfig.cmake\n'}
+[5.949451] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/cmake/pub_subConfig-version.cmake\n'}
+[5.950419] (pub_sub) StdoutLine: {'line': b'-- Up-to-date symlink: /home/azp/new_ws/install/pub_sub/share/pub_sub/package.xml\n'}
+[5.958513] (pub_sub) CommandEnded: {'returncode': 0}
+[6.016626] (rom_msgs) StdoutLine: {'line': b'[ 84%] Built target rom_msgs__rosidl_generator_py\n'}
+[6.035589] (-) TimerEvent: {}
+[6.136607] (-) TimerEvent: {}
+[6.183625] (motor_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[6.236772] (-) TimerEvent: {}
+[6.337328] (-) TimerEvent: {}
+[6.416941] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.437440] (-) TimerEvent: {}
+[6.443581] (rom_msgs) StdoutLine: {'line': b'[ 89%] Built target rom_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.509146] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.537623] (-) TimerEvent: {}
+[6.550271] (rom_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rom_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.560081] (rom_msgs) StdoutLine: {'line': b'[ 94%] Built target rom_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.573924] (rom_msgs) StdoutLine: {'line': b'[100%] Built target rom_msgs__rosidl_typesupport_c__pyext\n'}
+[6.637829] (-) TimerEvent: {}
+[6.715468] (rom_msgs) CommandEnded: {'returncode': 0}
+[6.738067] (-) TimerEvent: {}
+[6.780790] (pub_sub) JobEnded: {'identifier': 'pub_sub', 'rc': 0}
+[6.819561] (rom_msgs) JobProgress: {'identifier': 'rom_msgs', 'progress': 'install'}
+[6.820026] (rom_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azp/new_ws/build/rom_msgs'], 'cwd': '/home/azp/new_ws/build/rom_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'azp'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azp/new_ws/install/rom_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azp'), ('OLDPWD', '/home/azp/new_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '958'), ('SYSTEMD_EXEC_PID', '1197'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2719'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azp/new_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azp'), ('JOURNAL_STREAM', '8:28546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azp'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azp-Dell:@/tmp/.ICE-unix/1168,unix/azp-Dell:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '2bf4f3b4909048a8b6279e9139e35909'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YB07P1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:50709162-aadf-4597-b80c-091f6af7cfb4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azp/new_ws/build/rom_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azp/new_ws/install/rom_msgs:/home/azp/new_ws/install/pub_sub:/opt/ros/humble')]), 'shell': False}
+[6.838214] (-) TimerEvent: {}
+[6.891214] (rom_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.891605] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/rosidl_interfaces/rom_msgs\n'}
+[6.938570] (-) TimerEvent: {}
+[6.956358] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[6.957728] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.000319] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rpm.h\n'}
+[7.002186] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.003174] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__functions.c\n'}
+[7.003997] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__functions.h\n'}
+[7.005329] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.h\n'}
+[7.005892] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__struct.h\n'}
+[7.006357] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.006768] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.007160] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/add_two_ints.h\n'}
+[7.007546] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.007962] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__struct.h\n'}
+[7.008346] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__functions.c\n'}
+[7.008724] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.h\n'}
+[7.009183] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__functions.h\n'}
+[7.009571] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/library_path.sh\n'}
+[7.010024] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/library_path.dsv\n'}
+[7.034695] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_c.so\n'}
+[7.036174] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[7.037399] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.038564] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.039004] (-) TimerEvent: {}
+[7.039532] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_fastrtps_c.h\n'}
+[7.040297] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.040793] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.041282] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.041680] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[7.057662] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.059279] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[7.060579] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.062117] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.062748] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.063190] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_introspection_c.h\n'}
+[7.063602] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.c\n'}
+[7.064089] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.064728] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.065216] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[7.065615] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.c\n'}
+[7.076790] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.087935] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_c.so\n'}
+[7.088282] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[7.088708] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.089089] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rpm.hpp\n'}
+[7.089425] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.089560] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__builder.hpp\n'}
+[7.089681] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__struct.hpp\n'}
+[7.089807] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__traits.hpp\n'}
+[7.089921] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.090033] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/add_two_ints.hpp\n'}
+[7.090146] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.090258] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__struct.hpp\n'}
+[7.090370] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__builder.hpp\n'}
+[7.090481] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__traits.hpp\n'}
+[7.090593] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[7.090704] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.090816] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.090928] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.091039] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/dds_fastrtps\n'}
+[7.091150] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.091281] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.091393] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.091504] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/dds_fastrtps\n'}
+[7.091616] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.122097] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.122889] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs\n'}
+[7.123959] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg\n'}
+[7.124272] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail\n'}
+[7.124536] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.124816] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/msg/detail/rpm__type_support.cpp\n'}
+[7.125120] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv\n'}
+[7.125364] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail\n'}
+[7.125603] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__type_support.cpp\n'}
+[7.125843] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/include/rom_msgs/rom_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.139276] (-) TimerEvent: {}
+[7.167612] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.195435] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_typesupport_cpp.so\n'}
+[7.197601] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/pythonpath.sh\n'}
+[7.199456] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/pythonpath.dsv\n'}
+[7.200373] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info\n'}
+[7.201593] (rom_msgs) StdoutLine: {'line': b'-- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.202612] (rom_msgs) StdoutLine: {'line': b'-- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.203541] (rom_msgs) StdoutLine: {'line': b'-- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.204016] (rom_msgs) StdoutLine: {'line': b'-- Installing: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.204421] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs\n'}
+[7.230656] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.232466] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg\n'}
+[7.233560] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/_rpm.py\n'}
+[7.234401] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/__init__.py\n'}
+[7.235405] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg/_rpm_s.c\n'}
+[7.236292] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.236779] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/librom_msgs__rosidl_generator_py.so\n'}
+[7.237259] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.237664] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/__init__.py\n'}
+[7.238093] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.238574] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv\n'}
+[7.238963] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/__init__.py\n'}
+[7.239319] (-) TimerEvent: {}
+[7.239886] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/_add_two_ints.py\n'}
+[7.240473] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv/_add_two_ints_s.c\n'}
+[7.240926] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/_rom_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.241354] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.339687] (-) TimerEvent: {}
+[7.440667] (-) TimerEvent: {}
+[7.541701] (-) TimerEvent: {}
+[7.642230] (-) TimerEvent: {}
+[7.643682] (rom_msgs) StdoutLine: {'line': b"Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs'...\n"}
+[7.644762] (rom_msgs) StdoutLine: {'line': b"Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/msg'...\n"}
+[7.645819] (rom_msgs) StdoutLine: {'line': b"Listing '/home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/srv'...\n"}
+[7.693019] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.705915] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.727908] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/local/lib/python3.10/dist-packages/rom_msgs/rom_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.742535] (-) TimerEvent: {}
+[7.772366] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/lib/librom_msgs__rosidl_generator_py.so\n'}
+[7.774009] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/msg/Rpm.idl\n'}
+[7.775440] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts.idl\n'}
+[7.776444] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/msg/Rpm.msg\n'}
+[7.777230] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts.srv\n'}
+[7.777929] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts_Request.msg\n'}
+[7.778599] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/srv/AddTwoInts_Response.msg\n'}
+[7.779263] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/package_run_dependencies/rom_msgs\n'}
+[7.807817] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/parent_prefix_path/rom_msgs\n'}
+[7.809342] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/ament_prefix_path.sh\n'}
+[7.810894] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/ament_prefix_path.dsv\n'}
+[7.812097] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/path.sh\n'}
+[7.812686] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/environment/path.dsv\n'}
+[7.813204] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.bash\n'}
+[7.813616] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.sh\n'}
+[7.814006] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.zsh\n'}
+[7.814385] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/local_setup.dsv\n'}
+[7.814763] (rom_msgs) StdoutLine: {'line': b'-- Installing: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/package.dsv\n'}
+[7.842867] (-) TimerEvent: {}
+[7.851189] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/ament_index/resource_index/packages/rom_msgs\n'}
+[7.943189] (-) TimerEvent: {}
+[8.044208] (-) TimerEvent: {}
+[8.145243] (-) TimerEvent: {}
+[8.246210] (-) TimerEvent: {}
+[8.347346] (-) TimerEvent: {}
+[8.405511] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cExport.cmake\n'}
+[8.406541] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.447670] (-) TimerEvent: {}
+[8.482683] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.483828] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.548010] (-) TimerEvent: {}
+[8.630656] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.631672] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.648369] (-) TimerEvent: {}
+[8.672343] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.673314] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.748608] (-) TimerEvent: {}
+[8.753943] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.844502] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.845737] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.848828] (-) TimerEvent: {}
+[8.910797] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.911909] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.949200] (-) TimerEvent: {}
+[8.994386] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.995602] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.049421] (-) TimerEvent: {}
+[9.140181] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_pyExport.cmake\n'}
+[9.142134] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/export_rom_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.143647] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[9.144236] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.145031] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.145471] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.145863] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.146247] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.146630] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.147010] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgsConfig.cmake\n'}
+[9.147385] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/cmake/rom_msgsConfig-version.cmake\n'}
+[9.147803] (rom_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/azp/new_ws/install/rom_msgs/share/rom_msgs/package.xml\n'}
+[9.149562] (-) TimerEvent: {}
+[9.187716] (rom_msgs) CommandEnded: {'returncode': 0}
+[9.250185] (-) TimerEvent: {}
+[9.352387] (-) TimerEvent: {}
+[9.370214] (motor_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[9.374289] (rom_msgs) JobEnded: {'identifier': 'rom_msgs', 'rc': 0}
+[9.445224] (motor_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.452589] (-) TimerEvent: {}
+[9.552993] (-) TimerEvent: {}
+[9.653416] (-) TimerEvent: {}
+[9.696766] (motor_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.706331] (motor_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.706893] (motor_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.752277] (motor_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.753534] (-) TimerEvent: {}
+[9.785600] (motor_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.853723] (-) TimerEvent: {}
+[9.954222] (-) TimerEvent: {}
+[10.024042] (motor_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.034124] (motor_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.034481] (motor_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.035092] (motor_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.054505] (-) TimerEvent: {}
+[10.073617] (motor_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[10.154789] (-) TimerEvent: {}
+[10.255575] (-) TimerEvent: {}
+[10.356185] (-) TimerEvent: {}
+[10.456511] (-) TimerEvent: {}
+[10.467070] (motor_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.4") found components: Interpreter \n'}
+[10.556644] (-) TimerEvent: {}
+[10.657089] (-) TimerEvent: {}
+[10.758178] (-) TimerEvent: {}
+[10.809588] (motor_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[10.858312] (-) TimerEvent: {}
+[10.958955] (-) TimerEvent: {}
+[11.059813] (-) TimerEvent: {}
+[11.066916] (motor_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[11.108153] (motor_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[11.160022] (motor_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[11.160299] (-) TimerEvent: {}
+[11.260695] (-) TimerEvent: {}
+[11.267979] (motor_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.361026] (-) TimerEvent: {}
+[11.411870] (motor_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.461109] (-) TimerEvent: {}
+[11.545906] (motor_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[11.561261] (-) TimerEvent: {}
+[11.569727] (motor_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[11.661370] (-) TimerEvent: {}
+[11.761753] (-) TimerEvent: {}
+[11.862195] (-) TimerEvent: {}
+[11.962619] (-) TimerEvent: {}
+[12.015764] (motor_msg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[12.015986] (motor_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[12.016079] (motor_msg) StderrLine: {'line': b'  motor_msg --arguments-file\n'}
+[12.016158] (motor_msg) StderrLine: {'line': b'  /home/azp/new_ws/build/motor_msg/rosidl_adapter__arguments__motor_msg.json\n'}
+[12.016232] (motor_msg) StderrLine: {'line': b'  --output-dir /home/azp/new_ws/build/motor_msg/rosidl_adapter/motor_msg\n'}
+[12.016304] (motor_msg) StderrLine: {'line': b'  --output-file\n'}
+[12.016376] (motor_msg) StderrLine: {'line': b'  /home/azp/new_ws/build/motor_msg/rosidl_adapter/motor_msg.idls) returned\n'}
+[12.016446] (motor_msg) StderrLine: {'line': b'  error code 1:\n'}
+[12.016515] (motor_msg) StderrLine: {'line': b'\n'}
+[12.016585] (motor_msg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[12.016655] (motor_msg) StderrLine: {'line': b'\n'}
+[12.016724] (motor_msg) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[12.016793] (motor_msg) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[12.016904] (motor_msg) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[12.017040] (motor_msg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[12.017112] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[12.017182] (motor_msg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[12.017250] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[12.017320] (motor_msg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[12.017388] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[12.017458] (motor_msg) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[12.017526] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[12.017595] (motor_msg) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[12.017663] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string\n'}
+[12.017731] (motor_msg) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[12.017800] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__\n'}
+[12.017878] (motor_msg) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[12.017946] (motor_msg) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__\n'}
+[12.018015] (motor_msg) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[12.018083] (motor_msg) StderrLine: {'line': b'\n'}
+[12.018151] (motor_msg) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'rpm' is an invalid message\n"}
+[12.018219] (motor_msg) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[12.018288] (motor_msg) StderrLine: {'line': b'\n'}
+[12.018361] (motor_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[12.018430] (motor_msg) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[12.018499] (motor_msg) StderrLine: {'line': b'  CMakeLists.txt:23 (rosidl_generate_interfaces)\n'}
+[12.018567] (motor_msg) StderrLine: {'line': b'\n'}
+[12.018635] (motor_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[12.018704] (motor_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.018781] (motor_msg) StdoutLine: {'line': b'See also "/home/azp/new_ws/build/motor_msg/CMakeFiles/CMakeOutput.log".\n'}
+[12.022731] (motor_msg) CommandEnded: {'returncode': 1}
+[12.042117] (motor_msg) JobEnded: {'identifier': 'motor_msg', 'rc': 1}
+[12.052964] (-) EventReactorShutdown: {}

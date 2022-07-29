@@ -1,0 +1,7 @@
+{
+  "package_name": "rom_msgs",
+  "non_idl_tuples": [
+    "/home/azp/new_ws/src/rom_msgs:msg/Rpm.msg",
+    "/home/azp/new_ws/src/rom_msgs:srv/AddTwoInts.srv"
+  ]
+}

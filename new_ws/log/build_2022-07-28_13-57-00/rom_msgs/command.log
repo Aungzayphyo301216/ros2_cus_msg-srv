@@ -1,0 +1,6 @@
+Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs
+Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/rom_msgs -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/rom_msgs
+Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/rom_msgs -- -j4 -l4
+Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/azp/new_ws/build/rom_msgs -- -j4 -l4
+Invoking command in '/home/azp/new_ws/build/rom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/rom_msgs
+Invoked command in '/home/azp/new_ws/build/rom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/azp/new_ws/build/rom_msgs

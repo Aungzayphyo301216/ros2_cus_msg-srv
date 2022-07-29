@@ -1,0 +1,1 @@
+Invoking command in '/home/azp/new_ws/build/pub_sub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/azp/new_ws/src/pub_sub -DCMAKE_INSTALL_PREFIX=/home/azp/new_ws/install/pub_sub
